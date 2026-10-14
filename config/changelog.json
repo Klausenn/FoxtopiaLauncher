@@ -1,0 +1,162 @@
+[
+  {
+    "version": "0.1.7",
+    "date": "2026-10-14",
+    "title": {
+      "en-US": "Your content, your choices",
+      "tr-TR": "İçeriklerin senin kontrolünde",
+      "pl-PL": "Twoje dodatki, twój wybór"
+    },
+    "changes": [
+      {
+        "en-US": "Add local mods, resource packs and shaders, enable or disable optional content, and remove items from your installation.",
+        "tr-TR": "Yerel mod, kaynak paketi ve shader ekle; isteğe bağlı içerikleri aç, kapat veya kurulumundan kaldır.",
+        "pl-PL": "Dodawaj lokalne mody, paczki zasobów i shadery, włączaj lub wyłączaj opcjonalne dodatki i usuwaj je z instalacji."
+      },
+      {
+        "en-US": "Search Modrinth inside the launcher for compatible content. Required dependencies install automatically.",
+        "tr-TR": "Launcher içinden Modrinth’te uyumlu içerik ara. Gerekli bağımlılıklar otomatik kurulur.",
+        "pl-PL": "Wyszukuj zgodne dodatki w Modrinth bezpośrednio w launcherze. Wymagane zależności instalują się automatycznie."
+      },
+      {
+        "en-US": "Share your selection with a code. Preview it, add selected items or confirm replacing optional content while preserving a recovery copy.",
+        "tr-TR": "İçeriklerini kodla paylaş. Önce listeyi incele; seçtiklerini ekle veya kurtarma kopyası korunarak isteğe bağlı içeriklerini değiştirmeyi onayla.",
+        "pl-PL": "Udostępniaj zestaw kodem. Najpierw przejrzyj listę, dodaj wybrane elementy albo potwierdź zastąpienie opcjonalnych dodatków z zachowaniem kopii."
+      },
+      {
+        "en-US": "Loaded map details now stay visible when zooming out or panning to another part of the island.",
+        "tr-TR": "Yüklenen harita detayları artık uzaklaşınca veya adanın başka bir bölümüne kaydırınca kaybolmuyor.",
+        "pl-PL": "Wczytane szczegóły mapy pozostają widoczne po oddaleniu lub przesunięciu mapy."
+      }
+    ]
+  },
+  {
+    "version": "0.1.6",
+    "date": "2026-10-14",
+    "title": {
+      "en-US": "A smoother live island map",
+      "tr-TR": "Daha akıcı bir canlı ada haritası",
+      "pl-PL": "Płynniejsza mapa wyspy na żywo"
+    },
+    "changes": [
+      {
+        "en-US": "The map follows the launcher's language without reloading its camera or downloaded terrain.",
+        "tr-TR": "Harita, kamerasını ve indirilen araziyi yeniden yüklemeden launcher'ın dilini takip ediyor.",
+        "pl-PL": "Mapa dostosowuje język do launchera bez resetowania kamery i ponownego pobierania terenu."
+      },
+      {
+        "en-US": "Camera movement reuses cached terrain, while live updates transfer only changed chunks.",
+        "tr-TR": "Kamera hareketleri önbellekteki araziyi kullanıyor; canlı güncellemeler yalnızca değişen chunk'ları aktarıyor.",
+        "pl-PL": "Ruch kamery korzysta z zapisanej mapy, a aktualizacje na żywo przesyłają tylko zmienione chunki."
+      },
+      {
+        "en-US": "Player markers show worn skins as animated 3D heads, with flat skin heads in 2D. Map lighting and weather follow the server.",
+        "tr-TR": "Oyuncular 3D'de hareketli skin kafalarıyla, 2D'de düz skin kafalarıyla gösteriliyor. Haritanın ışığı ve havası sunucuyu takip ediyor.",
+        "pl-PL": "Graczy przedstawiają animowane głowy w aktualnych skórkach w 3D i płaskie ikony głów w 2D. Oświetlenie i pogoda odpowiadają serwerowi."
+      },
+      {
+        "en-US": "A cleaner map hides extra panels and uses the Foxtopia server icon.",
+        "tr-TR": "Ek paneller gizlendi; sadeleştirilen haritada Foxtopia sunucu simgesi kullanılıyor.",
+        "pl-PL": "Uproszczona mapa ukrywa dodatkowe panele i wyświetla ikonę serwera Foxtopia."
+      }
+    ]
+  },
+  {
+    "version": "0.1.5",
+    "date": "2026-10-14",
+    "title": {
+      "en-US": "Offline sign-in and reconnect repaired",
+      "tr-TR": "Offline giriş ve yeniden bağlantı düzeltildi",
+      "pl-PL": "Naprawiono logowanie offline i ponowne łączenie"
+    },
+    "changes": [
+      {
+        "en-US": "Fixed the client authentication initialization that could reject a valid Foxtopia account with an Invalid session error.",
+        "tr-TR": "Geçerli Foxtopia hesabının Invalid session hatasıyla reddedilmesine yol açan istemci doğrulama başlangıcı düzeltildi.",
+        "pl-PL": "Naprawiono inicjalizację uwierzytelniania klienta, która mogła odrzucać poprawne konto Foxtopia błędem Invalid session."
+      },
+      {
+        "en-US": "Verified first sign-in and reconnect with the actual NeoForge client and the launcher game supervisor.",
+        "tr-TR": "Gerçek NeoForge istemcisi ve launcher oyun gözeticisiyle ilk giriş ve yeniden bağlantı doğrulandı.",
+        "pl-PL": "Sprawdzono pierwsze logowanie i ponowne połączenie z prawdziwym klientem NeoForge oraz nadzorcą gry launchera."
+      },
+      {
+        "en-US": "The updated Foxtopia map service now supplies terrain instead of remaining on the loading screen.",
+        "tr-TR": "Güncellenen Foxtopia harita hizmeti artık yükleme ekranında kalmak yerine arazi verisini gösteriyor.",
+        "pl-PL": "Zaktualizowana mapa Foxtopii dostarcza teraz teren zamiast pozostawać na ekranie ładowania."
+      }
+    ]
+  },
+  {
+    "version": "0.1.4",
+    "date": "2026-10-14",
+    "title": {
+      "en-US": "A clearer Foxtopia experience",
+      "tr-TR": "Daha düzenli bir Foxtopia deneyimi",
+      "pl-PL": "Czytelniejsza obsługa Foxtopii"
+    },
+    "changes": [
+      {
+        "en-US": "Game sign-in tickets now refresh securely while Minecraft is open, so you can reconnect without reopening the launcher.",
+        "tr-TR": "Minecraft açıkken giriş biletleri güvenli biçimde yenileniyor; launcher'ı tekrar açmadan sunucuya yeniden bağlanabilirsin.",
+        "pl-PL": "Bilety logowania są bezpiecznie odnawiane podczas gry, aby ponowne połączenie nie wymagało otwierania launchera."
+      },
+      {
+        "en-US": "Use system language is enabled by default and corrected once for older installations.",
+        "tr-TR": "Sistem dilini kullan varsayılan olarak açık; eski kurulumlarda da bu ayar bir kez düzeltiliyor.",
+        "pl-PL": "Język systemu jest domyślnie włączony; ustawienie starszych instalacji zostaje jednorazowo poprawione."
+      },
+      {
+        "en-US": "Removed the duplicate launcher version from the sidebar.",
+        "tr-TR": "Tekrarlanan launcher adı ve sürümü sol panelden kaldırıldı.",
+        "pl-PL": "Usunięto powtórzoną nazwę i wersję launchera z panelu bocznego."
+      },
+      {
+        "en-US": "Fixed skin thumbnails to show the Minecraft head crop.",
+        "tr-TR": "Skin küçük resimleri artık PNG'nin tamamı yerine Minecraft kafasını gösteriyor.",
+        "pl-PL": "Miniatury skórek pokazują teraz głowę Minecrafta zamiast całego pliku PNG."
+      },
+      {
+        "en-US": "Disconnect screens now return to the Foxtopia main menu while keeping the error visible.",
+        "tr-TR": "Bağlantı kesilince hata mesajı korunuyor ve düğme Foxtopia ana menüsüne dönüyor.",
+        "pl-PL": "Ekran rozłączenia zachowuje komunikat o błędzie i wraca do menu głównego Foxtopii."
+      },
+      {
+        "en-US": "Localized these release notes and improved live-map connection and loading messages.",
+        "tr-TR": "Sürüm notları üç dile çevrildi; canlı haritanın bağlantı ve yükleme durumu iyileştirildi.",
+        "pl-PL": "Przetłumaczono informacje o wydaniu i poprawiono komunikaty połączenia oraz ładowania mapy."
+      },
+      {
+        "en-US": "Added Foxtopia artwork to Discord Rich Presence.",
+        "tr-TR": "Discord durumuna Foxtopia görseli eklendi.",
+        "pl-PL": "Dodano grafikę Foxtopii do aktywności Discord."
+      }
+    ]
+  },
+  {
+    "version": "0.1.0",
+    "date": "2026-10-13",
+    "title": {
+      "en-US": "Welcome to Foxtopia Launcher",
+      "tr-TR": "Foxtopia Launcher'a hoş geldin",
+      "pl-PL": "Witamy w launcherze Foxtopia"
+    },
+    "changes": [
+      {
+        "en-US": "A dedicated home for your Foxtopia installation.",
+        "tr-TR": "Foxtopia kurulumun için özel bir ana ekran.",
+        "pl-PL": "Dedykowany ekran główny dla Twojej instalacji Foxtopia."
+      },
+      {
+        "en-US": "English, Turkish and Polish interface.",
+        "tr-TR": "İngilizce, Türkçe ve Lehçe arayüz.",
+        "pl-PL": "Interfejs w języku angielskim, tureckim i polskim."
+      },
+      {
+        "en-US": "Separate game profiles and compatibility-aware content tracking.",
+        "tr-TR": "Ayrı oyun profilleri ve uyumluluğu izlenen içerikler.",
+        "pl-PL": "Oddzielne profile gry i kontrola zgodności dodatków."
+      }
+    ]
+  }
+]
