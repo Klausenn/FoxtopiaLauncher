@@ -1,5 +1,31 @@
 [
   {
+    "version": "0.1.10",
+    "date": "2026-10-15",
+    "title": {
+      "en-US": "Your island, your launcher",
+      "tr-TR": "Senin adan, senin launcher’ın",
+      "pl-PL": "Twoja wyspa, Twój launcher"
+    },
+    "changes": [
+      {
+        "en-US": "Removed personal content stays removed after restarting or updating. Corrected a stale installation selection that could restore an older profile.",
+        "tr-TR": "Silinen kişisel içerikler yeniden başlatma ve güncelleme sonrasında geri gelmez. Eski, dolu kuruluma dönülmesine neden olan profil seçimi düzeltildi.",
+        "pl-PL": "Usunięte dodatki pozostają usunięte po ponownym uruchomieniu i aktualizacji. Naprawiono wybór starego profilu, który mógł przywracać zawartość."
+      },
+      {
+        "en-US": "The Foxtopia main menu now shows a shader-lit 360-degree panorama captured on the real island.",
+        "tr-TR": "Foxtopia ana menüsüne gerçek adada shader ile çekilmiş 360 derecelik panorama eklendi.",
+        "pl-PL": "Menu Foxtopii pokazuje teraz panoramę 360 stopni prawdziwej wyspy, wykonaną z shaderami."
+      },
+      {
+        "en-US": "One unavailable Modrinth project no longer prevents other verified search results from appearing.",
+        "tr-TR": "Tek bir Modrinth projesindeki erişim sorunu, doğrulanan diğer arama sonuçlarını artık gizlemez.",
+        "pl-PL": "Niedostępność jednego projektu Modrinth nie ukrywa już pozostałych zweryfikowanych wyników."
+      }
+    ]
+  },
+  {
     "version": "0.1.9",
     "date": "2026-10-15",
     "title": {
