@@ -1,5 +1,31 @@
 [
   {
+    "version": "0.1.9",
+    "date": "2026-10-15",
+    "title": {
+      "en-US": "News, client content and a welcome back",
+      "tr-TR": "Yenilikler, istemci içerikleri ve geri dönüş",
+      "pl-PL": "Aktualności, dodatki klienta i powrót"
+    },
+    "changes": [
+      {
+        "en-US": "Fixed the blank What's New screen and made release notes resilient to older formats.",
+        "tr-TR": "Boş kalan Neler Yeni ekranı düzeltildi; eski biçimdeki notlar da güvenle gösterilir.",
+        "pl-PL": "Naprawiono pusty ekran Co nowego i obsługę starszych formatów informacji o wydaniu."
+      },
+      {
+        "en-US": "Added an optional setting to reopen the launcher after Minecraft closes.",
+        "tr-TR": "Minecraft kapanınca launcher'ı yeniden açmak için isteğe bağlı bir ayar eklendi.",
+        "pl-PL": "Dodano opcjonalne ponowne otwieranie launchera po zamknięciu Minecrafta."
+      },
+      {
+        "en-US": "Modrinth discovery now excludes mods that require a modded server.",
+        "tr-TR": "Modrinth araması artık sunucuya mod kurulmasını gerektiren içerikleri göstermez.",
+        "pl-PL": "Wyszukiwanie Modrinth pomija mody wymagające instalacji na serwerze."
+      }
+    ]
+  },
+  {
     "version": "0.1.8",
     "date": "2026-10-15",
     "title": {
@@ -7,32 +33,38 @@
       "tr-TR": "İçeriklerin, senin seçimin",
       "pl-PL": "Twoje dodatki, Twój wybór"
     },
-    "changes": {
-      "en-US": [
-        "Only required Foxtopia files are installed by default. Existing optional additions can be disabled or removed.",
-        "Select several items or all personal content and review before removing them.",
-        "Browse Modrinth without a search term, open project pages, see declared conflicts, and request future versions.",
-        "All island map detail loads without zooming; invisible technical blocks stay invisible.",
-        "Disconnect returns to the Foxtopia menu and required server packs are accepted automatically.",
-        "Updated GitHub links for Klausenn."
-      ],
-      "tr-TR": [
-        "İlk kurulumda yalnızca zorunlu Foxtopia dosyaları gelir. Mevcut kişisel içerikler kapatılabilir veya kaldırılabilir.",
-        "Birden fazla içeriği veya tüm kişisel içerikleri seçip kaldırmadan önce listeyi inceleyebilirsin.",
-        "Modrinth’e boş aramayla göz at, proje sayfalarını aç, bildirilen çakışmaları gör ve gelecek sürümleri bekleme listene al.",
-        "Ada haritasının tüm detayları yakınlaştırmadan yüklenir; görünmez teknik bloklar çizilmez.",
-        "Sunucudan çıkış Foxtopia ana menüsüne döner; zorunlu sunucu paketleri otomatik kabul edilir.",
-        "GitHub bağlantıları Klausenn olarak güncellendi."
-      ],
-      "pl-PL": [
-        "Domyślnie instalowane są tylko wymagane pliki Foxtopii. Dodatki osobiste można wyłączyć lub usunąć.",
-        "Zaznacz wiele dodatków lub wszystkie osobiste pliki i sprawdź listę przed usunięciem.",
-        "Przeglądaj Modrinth bez wpisywania nazwy, otwieraj strony projektów, sprawdzaj konflikty i oczekuj na nowe wersje.",
-        "Wszystkie szczegóły mapy wczytują się bez przybliżania; niewidoczne bloki pozostają niewidoczne.",
-        "Rozłączenie wraca do menu Foxtopii, a wymagane paczki serwera są akceptowane automatycznie.",
-        "Zaktualizowano odnośniki GitHub do Klausenn."
-      ]
-    }
+    "changes": [
+      {
+        "en-US": "Only required Foxtopia files are installed by default. Existing optional additions can be disabled or removed.",
+        "tr-TR": "İlk kurulumda yalnızca zorunlu Foxtopia dosyaları gelir. Mevcut kişisel içerikler kapatılabilir veya kaldırılabilir.",
+        "pl-PL": "Domyślnie instalowane są tylko wymagane pliki Foxtopii. Dodatki osobiste można wyłączyć lub usunąć."
+      },
+      {
+        "en-US": "Select several items or all personal content and review before removing them.",
+        "tr-TR": "Birden fazla içeriği veya tüm kişisel içerikleri seçip kaldırmadan önce listeyi inceleyebilirsin.",
+        "pl-PL": "Zaznacz wiele dodatków lub wszystkie osobiste pliki i sprawdź listę przed usunięciem."
+      },
+      {
+        "en-US": "Browse Modrinth without a search term, open project pages, see declared conflicts, and request future versions.",
+        "tr-TR": "Modrinth’e boş aramayla göz at, proje sayfalarını aç, bildirilen çakışmaları gör ve gelecek sürümleri bekleme listene al.",
+        "pl-PL": "Przeglądaj Modrinth bez wpisywania nazwy, otwieraj strony projektów, sprawdzaj konflikty i oczekuj na nowe wersje."
+      },
+      {
+        "en-US": "All island map detail loads without zooming; invisible technical blocks stay invisible.",
+        "tr-TR": "Ada haritasının tüm detayları yakınlaştırmadan yüklenir; görünmez teknik bloklar çizilmez.",
+        "pl-PL": "Wszystkie szczegóły mapy wczytują się bez przybliżania; niewidoczne bloki pozostają niewidoczne."
+      },
+      {
+        "en-US": "Disconnect returns to the Foxtopia menu and required server packs are accepted automatically.",
+        "tr-TR": "Sunucudan çıkış Foxtopia ana menüsüne döner; zorunlu sunucu paketleri otomatik kabul edilir.",
+        "pl-PL": "Rozłączenie wraca do menu Foxtopii, a wymagane paczki serwera są akceptowane automatycznie."
+      },
+      {
+        "en-US": "Updated GitHub links for Klausenn.",
+        "tr-TR": "GitHub bağlantıları Klausenn olarak güncellendi.",
+        "pl-PL": "Zaktualizowano odnośniki GitHub do Klausenn."
+      }
+    ]
   },
   {
     "version": "0.1.7",
