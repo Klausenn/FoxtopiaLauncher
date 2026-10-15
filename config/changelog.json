@@ -1,5 +1,40 @@
 [
   {
+    "version": "0.1.8",
+    "date": "2026-10-14",
+    "title": {
+      "en-US": "Your content, your choice",
+      "tr-TR": "İçeriklerin, senin seçimin",
+      "pl-PL": "Twoje dodatki, Twój wybór"
+    },
+    "changes": {
+      "en-US": [
+        "Only required Foxtopia files are installed by default. Existing optional additions can be disabled or removed.",
+        "Select several items or all personal content and review before removing them.",
+        "Browse Modrinth without a search term, open project pages, see declared conflicts, and request future versions.",
+        "All island map detail loads without zooming; invisible technical blocks stay invisible.",
+        "Disconnect returns to the Foxtopia menu and required server packs are accepted automatically.",
+        "Updated GitHub links for Klausenn."
+      ],
+      "tr-TR": [
+        "İlk kurulumda yalnızca zorunlu Foxtopia dosyaları gelir. Mevcut kişisel içerikler kapatılabilir veya kaldırılabilir.",
+        "Birden fazla içeriği veya tüm kişisel içerikleri seçip kaldırmadan önce listeyi inceleyebilirsin.",
+        "Modrinth’e boş aramayla göz at, proje sayfalarını aç, bildirilen çakışmaları gör ve gelecek sürümleri bekleme listene al.",
+        "Ada haritasının tüm detayları yakınlaştırmadan yüklenir; görünmez teknik bloklar çizilmez.",
+        "Sunucudan çıkış Foxtopia ana menüsüne döner; zorunlu sunucu paketleri otomatik kabul edilir.",
+        "GitHub bağlantıları Klausenn olarak güncellendi."
+      ],
+      "pl-PL": [
+        "Domyślnie instalowane są tylko wymagane pliki Foxtopii. Dodatki osobiste można wyłączyć lub usunąć.",
+        "Zaznacz wiele dodatków lub wszystkie osobiste pliki i sprawdź listę przed usunięciem.",
+        "Przeglądaj Modrinth bez wpisywania nazwy, otwieraj strony projektów, sprawdzaj konflikty i oczekuj na nowe wersje.",
+        "Wszystkie szczegóły mapy wczytują się bez przybliżania; niewidoczne bloki pozostają niewidoczne.",
+        "Rozłączenie wraca do menu Foxtopii, a wymagane paczki serwera są akceptowane automatycznie.",
+        "Zaktualizowano odnośniki GitHub do Klausenn."
+      ]
+    }
+  },
+  {
     "version": "0.1.7",
     "date": "2026-10-14",
     "title": {
