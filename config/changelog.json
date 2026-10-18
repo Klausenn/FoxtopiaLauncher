@@ -1,5 +1,26 @@
 [
   {
+    "version": "0.1.17",
+    "date": "2026-10-18",
+    "title": {
+      "en-US": "Intel rendering compatibility",
+      "tr-TR": "Intel görüntü uyumluluğu",
+      "pl-PL": "Zgodność renderowania Intel"
+    },
+    "changes": [
+      {
+        "en-US": "The required Foxtopia client synchronizes temporary OpenGL buffer reuse on fallback graphics paths, correcting a 26.3 rendering hazard.",
+        "tr-TR": "Zorunlu Foxtopia istemcisi, geçici OpenGL belleğinin güvenli biçimde yeniden kullanılmasını sağlayarak 26.3 çizim yolundaki hatayı giderir.",
+        "pl-PL": "Wymagany klient Foxtopii synchronizuje ponowne użycie tymczasowych buforów OpenGL, usuwając błąd renderowania w 26.3."
+      },
+      {
+        "en-US": "The fix keeps existing stable Iris and Sodium versions. Personal content, account data and game settings are retained.",
+        "tr-TR": "Mevcut kararlı Iris ve Sodium sürümleriyle çalışır. Kişisel içerikler, hesap verileri ve oyun ayarları korunur.",
+        "pl-PL": "Poprawka zachowuje obecne stabilne wersje Iris i Sodium. Osobista zawartość, dane kont i ustawienia gry zostają zachowane."
+      }
+    ]
+  },
+  {
     "version": "0.1.16",
     "date": "2026-10-18",
     "title": {
