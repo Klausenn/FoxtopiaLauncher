@@ -1,5 +1,26 @@
 [
   {
+    "version": "0.1.18",
+    "date": "2026-10-18",
+    "title": {
+      "en-US": "Connected textures and item frames",
+      "tr-TR": "Bağlı dokular ve item frame düzeltmesi",
+      "pl-PL": "Połączone tekstury i ramki na przedmioty"
+    },
+    "changes": [
+      {
+        "en-US": "Corrects shared model storage in the older NeoContinuity version that could make item frames display ghost blocks, including the last block hit. Connected textures can stay enabled.",
+        "tr-TR": "Eski NeoContinuity sürümünde item frame’lerin vurulan son blok gibi hayalet bloklar göstermesine yol açan ortak çizim verisi düzeltilir. Bağlı dokular açık kalabilir.",
+        "pl-PL": "Naprawia współdzielone dane modeli w starszej wersji NeoContinuity, które powodowały wyświetlanie fałszywych bloków przy ramkach, także ostatnio uderzonego bloku. Połączone tekstury mogą pozostać włączone."
+      },
+      {
+        "en-US": "Personal content, disabled mod choices, account data and game settings are retained. Restart Minecraft after updating.",
+        "tr-TR": "Kişisel içerikler, devre dışı bırakılan mod tercihleri, hesap verileri ve oyun ayarları korunur. Güncellemeden sonra Minecraft’ı yeniden açın.",
+        "pl-PL": "Osobista zawartość, wybór wyłączonych modów, dane kont i ustawienia gry są zachowane. Po aktualizacji uruchom Minecraft ponownie."
+      }
+    ]
+  },
+  {
     "version": "0.1.17",
     "date": "2026-10-18",
     "title": {
