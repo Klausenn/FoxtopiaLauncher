@@ -1,5 +1,160 @@
 [
   {
+    "version": "0.1.16",
+    "date": "2026-10-18",
+    "title": {
+      "en-US": "Faster content, smoother restarts",
+      "tr-TR": "Hızlı içerikler, sorunsuz bekleme",
+      "pl-PL": "Szybsze dodatki i sprawne restarty"
+    },
+    "changes": [
+      {
+        "en-US": "Content search uses a short shared cache and bounded parallel checks. Installing an addition reuses verified existing files instead of downloading everything again.",
+        "tr-TR": "İçerik araması kısa süreli önbellek ve paralel kontrollerle hızlandı. Yeni içerik kurulurken doğrulanmış mevcut dosyalar yeniden indirilmez.",
+        "pl-PL": "Wyszukiwanie korzysta z krótkiej pamięci podręcznej i równoległych kontroli. Instalacja dodatku wykorzystuje zweryfikowane istniejące pliki."
+      },
+      {
+        "en-US": "Compatible beta dependencies such as LibJF for Respackopts can be installed after reviewing their exact versions. New beta versions are never approved silently.",
+        "tr-TR": "Respackopts için LibJF gibi uyumlu beta bağımlılıkları, tam sürümleri incelenip onaylandıktan sonra kurulabilir. Yeni beta sürümleri sessizce onaylanmaz.",
+        "pl-PL": "Zgodne zależności beta, takie jak LibJF dla Respackopts, można zainstalować po sprawdzeniu ich dokładnych wersji. Nowe wersje beta nie są zatwierdzane automatycznie."
+      },
+      {
+        "en-US": "Both required Foxtopia clients include the item-frame rendering workaround, including renamed ImmediatelyFast files.",
+        "tr-TR": "Her iki zorunlu Foxtopia istemcisi de item frame görüntüleme düzeltmesini içerir; adı değiştirilmiş ImmediatelyFast dosyaları da tanınır.",
+        "pl-PL": "Oba wymagane klienty Foxtopii zawierają poprawkę renderowania ramek, także przy zmienionej nazwie pliku ImmediatelyFast."
+      },
+      {
+        "en-US": "The launcher recognizes an indefinitely paused main server and can prepare a connection to the available waiting lobby. Chat switches when the server bridge changes.",
+        "tr-TR": "Launcher, ana sunucu süresiz kapalıyken açık bekleme lobisine bağlantı hazırlayabilir. Sunucu köprüsü değişince sohbet bağlantısı yenilenir.",
+        "pl-PL": "Launcher rozpoznaje bezterminowe wstrzymanie głównego serwera i może przygotować połączenie z dostępnym lobby. Czat odnawia połączenie po zmianie serwera."
+      }
+    ]
+  },
+  {
+    "version": "0.1.14",
+    "date": "2026-10-16",
+    "title": {
+      "en-US": "Keep your wardrobe safe",
+      "tr-TR": "Skinlerin güvende kalsın",
+      "pl-PL": "Bezpieczna garderoba"
+    },
+    "changes": [
+      {
+        "en-US": "Unreadable or damaged saved settings no longer start an empty wardrobe or overwrite your existing data. A clear BlueFox-606 message explains the problem.",
+        "tr-TR": "Okunamayan veya bozuk ayar dosyası artık boş gardırop oluşturmaz ve mevcut verilerinin üstüne yazmaz. MaviTilki-606 sorunu açıkça anlatır.",
+        "pl-PL": "Nieczytelne lub uszkodzone ustawienia nie tworzą już pustej garderoby ani nie nadpisują danych. Komunikat NiebieskiLis-606 jasno wyjaśnia problem."
+      },
+      {
+        "en-US": "Saving keeps a private copy of the last valid settings. Each account keeps its own skins across sign-out and restart; deleted skins stay deleted.",
+        "tr-TR": "Her kayıtta son geçerli ayarların yerel yedeği tutulur. Çıkış ve yeniden açılışta her hesabın skinleri ayrı kalır; silinen skinler geri getirilmez.",
+        "pl-PL": "Zapis zachowuje prywatną kopię ostatnich poprawnych ustawień. Konta zachowują własne skórki po wylogowaniu i ponownym otwarciu; usunięte skórki pozostają usunięte."
+      }
+    ]
+  },
+  {
+    "version": "0.1.13",
+    "date": "2026-10-16",
+    "title": {
+      "en-US": "Your choices, remembered",
+      "tr-TR": "Tercihlerin akılda kalsın",
+      "pl-PL": "Twoje wybory zostają"
+    },
+    "changes": [
+      {
+        "en-US": "The launcher can stay open during Minecraft. The choice is saved, and running sessions cannot be started twice.",
+        "tr-TR": "Launcher, Minecraft açıkken açık kalabilir. Seçimin kaydedilir ve aynı oyun ikinci kez başlatılamaz.",
+        "pl-PL": "Launcher może pozostać otwarty podczas gry. Wybór jest zapisywany, a drugiej sesji nie da się uruchomić."
+      },
+      {
+        "en-US": "Remembered sign-in keeps its encrypted Microsoft cache and renews chat automatically. Temporary service failures no longer discard a verified account.",
+        "tr-TR": "Beni hatırla, şifrelenmiş Microsoft kaydını korur ve sohbeti otomatik yeniler. Geçici servis hataları doğrulanmış hesabı kapatmaz.",
+        "pl-PL": "Zapamiętane logowanie zachowuje zaszyfrowaną pamięć Microsoft i automatycznie odnawia czat. Chwilowe błędy usługi nie wylogowują zweryfikowanego konta."
+      },
+      {
+        "en-US": "Previously removed shader dependencies are shown for explicit approval. Only the reviewed dependency selection can be restored.",
+        "tr-TR": "Önceden kaldırılmış shader bağımlılıkları açık onay için gösterilir. Yalnızca incelediğin bağımlılıklar geri kurulabilir.",
+        "pl-PL": "Wcześniej usunięte zależności shaderów są pokazywane do zatwierdzenia. Przywrócić można tylko sprawdzony wybór zależności."
+      },
+      {
+        "en-US": "Content browsing uses pages and automatically searches after category or compatibility changes. Rename fields and checkboxes match the dark theme; the footer shows the server tagline.",
+        "tr-TR": "İçerik aramaları sayfalıdır; kategori veya uyumluluk değişince otomatik aranır. Ad alanları ve kutular koyu temaya uyar; alt bölüm sunucu sloganını gösterir.",
+        "pl-PL": "Dodatki są podzielone na strony, a zmiana kategorii lub zgodności automatycznie wyszukuje. Pola nazw i checkboxy pasują do ciemnego motywu, a stopka pokazuje motto serwera."
+      },
+      {
+        "en-US": "Minecraft 26.3 startup is detected correctly. Iris and Sodium use a conservative graphics context while keeping your shader and other preferences.",
+        "tr-TR": "Minecraft 26.3 açılışı doğru algılanır. Iris ve Sodium, shader’ını ve diğer tercihlerini koruyarak uyumlu grafik bağlamını kullanır.",
+        "pl-PL": "Uruchomienie Minecrafta 26.3 jest poprawnie wykrywane. Iris i Sodium używają zachowawczego kontekstu grafiki, zachowując shader i inne ustawienia."
+      }
+    ]
+  },
+  {
+    "version": "0.1.12",
+    "date": "2026-10-16",
+    "title": {
+      "en-US": "Clearer choices, clearer fox codes",
+      "tr-TR": "Net seçimler, anlaşılır tilki kodları",
+      "pl-PL": "Jasny wybór i czytelne kody liska"
+    },
+    "changes": [
+      {
+        "en-US": "Errors now include localized fox names and stable support numbers, with separate explanations for account, content, file and update problems.",
+        "tr-TR": "Hatalar artık yerelleştirilmiş tilki adları ve sabit destek numaralarıyla gösterilir; hesap, içerik, dosya ve güncelleme sorunları ayrı ayrı açıklanır.",
+        "pl-PL": "Błędy mają teraz lokalne nazwy liska i stałe numery pomocy oraz osobne wyjaśnienia problemów konta, dodatków, plików i aktualizacji."
+      },
+      {
+        "en-US": "The wardrobe shows the skin and model actually confirmed as in use. Imported PNG skins can be renamed within their own account.",
+        "tr-TR": "Gardırop, gerçekten kullanımda olduğu doğrulanan skini ve modeli gösterir. İçe aktarılan PNG skinlerin adı kendi hesabında değiştirilebilir.",
+        "pl-PL": "Garderoba pokazuje skórkę i model potwierdzone jako używane. Nazwy importowanych skórek PNG można zmieniać w obrębie własnego konta."
+      },
+      {
+        "en-US": "Required Foxtopia content stays protected and can be hidden from the personal library. Content compatibility and shader-loader requirements are checked before installation.",
+        "tr-TR": "Zorunlu Foxtopia içerikleri korunur ve kişisel kütüphanede gizlenebilir. İçerik uyumluluğu ile shader yükleyici gereksinimleri kurulumdan önce kontrol edilir.",
+        "pl-PL": "Wymagane dodatki Foxtopii pozostają chronione i można je ukryć w bibliotece osobistej. Zgodność dodatków i wymagania modułu shaderów są sprawdzane przed instalacją."
+      },
+      {
+        "en-US": "Failures before Minecraft opens now retain a small sanitized launch-phase report so the cause can be diagnosed even after background preparation resumes.",
+        "tr-TR": "Minecraft açılmadan oluşan hatalar artık küçük ve temizlenmiş bir açılış aşaması raporunda tutulur; arka plan hazırlığı devam etse de neden incelenebilir.",
+        "pl-PL": "Błędy przed otwarciem Minecrafta są teraz zachowywane w małym, oczyszczonym raporcie etapu uruchamiania, także po wznowieniu przygotowania w tle."
+      }
+    ]
+  },
+  {
+    "version": "0.1.11",
+    "date": "2026-10-16",
+    "title": {
+      "en-US": "A smoother return to Foxtopia",
+      "tr-TR": "Foxtopia’ya sorunsuz dönüş",
+      "pl-PL": "Wygodniejszy powrót do Foxtopii"
+    },
+    "changes": [
+      {
+        "en-US": "Premium Foxtopia connections now use the launcher’s verified game ticket while keeping the Microsoft account and skin identity separate.",
+        "tr-TR": "Premium Foxtopia bağlantıları artık Microsoft hesabını ve skin kimliğini koruyarak launcher’ın doğrulanmış oyun biletini kullanır.",
+        "pl-PL": "Połączenia Premium z Foxtopią używają teraz zweryfikowanego biletu launchera, zachowując osobną tożsamość konta Microsoft i skórki."
+      },
+      {
+        "en-US": "Remembered sign-in recovers after a temporary server outage. Changing Remember me now updates the current account and its encrypted credentials.",
+        "tr-TR": "Beni hatırla, geçici sunucu kesintisinden sonra tekrar giriş yapar. Ayarı değiştirmek mevcut hesaba ve şifrelenmiş oturuma da uygulanır.",
+        "pl-PL": "Zapamiętane logowanie wraca po chwilowej niedostępności serwera. Zmiana opcji Zapamiętaj mnie dotyczy też bieżącego konta i zaszyfrowanej sesji."
+      },
+      {
+        "en-US": "The skin preview follows your saved server skin and keeps the confirmed texture after a change.",
+        "tr-TR": "Skin önizlemesi sunucudaki kayıtlı skinini gösterir ve değişiklikten sonra doğrulanan görünümü korur.",
+        "pl-PL": "Podgląd skórki pokazuje wygląd zapisany na serwerze i zachowuje potwierdzoną teksturę po zmianie."
+      },
+      {
+        "en-US": "Player commands are excluded from launcher chat. Connection and action errors appear as clearer notifications.",
+        "tr-TR": "Oyuncu komutları launcher sohbetinden çıkarıldı. Bağlantı ve işlem hataları daha anlaşılır bildirimlerle gösterilir.",
+        "pl-PL": "Komendy graczy nie pojawiają się na czacie launchera. Błędy połączeń i działań mają czytelniejsze powiadomienia."
+      },
+      {
+        "en-US": "The island map can fall back to 2D when 3D rendering is unavailable.",
+        "tr-TR": "3D görüntüleme kullanılamadığında ada haritası 2D görünüme geçebilir.",
+        "pl-PL": "Mapa wyspy może przełączyć się na widok 2D, gdy renderowanie 3D jest niedostępne."
+      }
+    ]
+  },
+  {
     "version": "0.1.10",
     "date": "2026-10-15",
     "title": {
