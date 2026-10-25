@@ -1,0 +1,25 @@
+# Foxtopia: Efficiency draft for Artifacts 13.2.5, Minecraft 1.21.1.
+# Only equipment slot freedom differs from native defaults.
+# Restart the game/server after changing the slots section.
+artifactRarity = 1.0
+entityEquipmentChance = 0.0015
+archaeologyChance = 0.0625
+
+[campsite]
+campsiteCount = 40
+minY = -60
+maxY = 40
+mimicChance = 0.3
+useModdedChests = true
+allowLightSources = true
+minimalistCampsites = false
+
+[slots]
+enableAccessoriesCompat = true
+enableCuriosCompat = true
+enableTrinketsCompat = true
+# This Artifacts version supports its automatic face split only on Trinkets.
+addFaceSlot = false
+# The user requested many slots and unrestricted equipment combinations.
+# This does not change the mod's built-in handling of duplicate effects.
+removeSlotRestrictions = true

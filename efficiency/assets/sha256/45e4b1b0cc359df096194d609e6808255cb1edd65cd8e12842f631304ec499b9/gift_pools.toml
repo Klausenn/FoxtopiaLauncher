@@ -1,0 +1,60 @@
+# DRAFT ONLY. Exact supplied VR 1.0.9b gift-pool keys verified by bytecode.
+# Native gift weights/cooldowns remain controlled by Villagers Reborn code.
+# Emerald gifts become bevels; repeatable legendary material rewards become
+# useful small rewards so many friendly villagers do not bypass exploration.
+# Counts and potion/armor special handling require the isolated runtime check.
+[friendly]
+common = "minecraft:bread"
+uncommon = "minecraft:cake"
+rare = "numismatics:bevel"
+veryRare = "minecraft:honey_bottle"
+legendary = "minecraft:golden_apple"
+
+[mean]
+common = "minecraft:rotten_flesh"
+uncommon = "minecraft:coal"
+rare = "minecraft:tnt"
+veryRare = "minecraft:iron_ingot"
+legendary = "numismatics:cog"
+
+[shy]
+common = "minecraft:pumpkin_pie"
+uncommon = "minecraft:apple"
+rare = "minecraft:honey_bottle"
+veryRare = "numismatics:bevel"
+legendary = "minecraft:potion"
+
+[brave]
+common = "minecraft:arrow"
+uncommon = "minecraft:shield"
+rare = "minecraft:potion"
+veryRare = "minecraft:iron_sword"
+legendary = "minecraft:golden_apple"
+
+[grumpy]
+common = "minecraft:potato"
+uncommon = "minecraft:iron_ingot"
+rare = "numismatics:bevel"
+veryRare = "minecraft:ender_pearl"
+legendary = "numismatics:cog"
+
+[greedy]
+common = "minecraft:copper_ingot"
+uncommon = "minecraft:gold_nugget"
+rare = "minecraft:gold_ingot"
+veryRare = "numismatics:bevel"
+legendary = "minecraft:diamond"
+
+[romantic]
+common = "minecraft:poppy"
+uncommon = "minecraft:apple"
+rare = "numismatics:bevel"
+veryRare = "minecraft:blaze_powder"
+legendary = "numismatics:cog"
+
+[wise]
+common = "minecraft:book"
+uncommon = "minecraft:lapis_lazuli"
+rare = "minecraft:potion"
+veryRare = "minecraft:potion"
+legendary = "numismatics:cog"

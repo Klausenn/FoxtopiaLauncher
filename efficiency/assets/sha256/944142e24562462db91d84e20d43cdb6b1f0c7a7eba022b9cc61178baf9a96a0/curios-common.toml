@@ -1,0 +1,3 @@
+# Slot counts come from the Foxtopia Efficiency Equipment datapack.
+# Nonempty entries here would override datapack slot settings.
+slots = []

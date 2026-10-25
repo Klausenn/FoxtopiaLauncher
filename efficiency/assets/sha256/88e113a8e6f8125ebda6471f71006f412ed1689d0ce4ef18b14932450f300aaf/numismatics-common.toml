@@ -1,0 +1,4 @@
+# DRAFT ONLY. Display unit; this does not change the actual coin values.
+# Exact 1.1.0 key is defaultCoin, not referenceCoin.
+[coins]
+defaultCoin = "COG"
