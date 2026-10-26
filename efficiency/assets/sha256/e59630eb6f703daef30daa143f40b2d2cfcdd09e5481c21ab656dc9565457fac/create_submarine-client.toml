@@ -1,0 +1,4 @@
+# Hide the publisher's welcome/update screens in this managed modpack.
+# Gameplay pressure/oxygen, accessibility and control settings retain native defaults.
+[client]
+disableStartupScreens = true
